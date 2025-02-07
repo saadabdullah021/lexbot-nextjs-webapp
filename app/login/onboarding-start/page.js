@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 function page() {
   return (
-    <div>
+    <>
          <div className="flex items-center justify-center min-h-screen bg-white lg:bg-gradient-to-r from-[#8711C180] to-[#2472FCCC]">
         <div className="bg-white lg:rounded-3xl lg:shadow-lg w-full max-w-2xl p-2 mx-4 lg:mx-0 lg:p-12">
           <div className="text-center">
@@ -92,7 +92,7 @@ function page() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
